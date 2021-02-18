@@ -1,0 +1,65 @@
+/* 公共样式 */
+body,.mui-content{
+    background: #fff;
+}
+.my-header{
+    background: #006699;
+}
+.my-header h1{
+    color: #fff;
+}
+.my-header .mui-icon-search{
+    color: #fff;
+}
+.my-footer{
+    background: #006699;
+}
+.my-footer .mui-tab-item{
+    color: #fff;
+}
+nav span{
+    display: block;
+    font-size: 14px;
+}
+.my-footer .mui-tab-item.mui-active{
+    color: darkorange;
+}
+.mui-content{
+    margin-bottom: 50px;
+}
+/* 导航链接 */
+.nav-links{
+    padding: 10px;
+    /* overflow: hidden; */ 
+}
+.nav-links a{
+    width: 33.3333%;
+    float: left;
+}
+.nav-links img{
+    width: 100%;
+}
+/* 品牌专区 */
+.brand{
+    padding: 0 10px;
+}
+.brand .title{
+    width: 100%;
+}
+.brand ul{
+    overflow: hidden;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+}
+.brand ul li{
+    width: 25%;
+    float: left;
+}
+.brand ul li a{
+    display: block;
+}
+.brand ul li a img{
+    width: 100%;
+}
+

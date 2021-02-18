@@ -1,0 +1,86 @@
+/* 导航链接区域 */
+.mui-content .nav-links{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.mui-content .nav-links a{
+    display: block;
+    width: 33.33%;
+}
+.mui-content .nav-links a>img{
+    width: 100%;
+}
+/* 品牌专区 */
+.mui-content .brand{
+    padding: 0 10px;
+}
+.mui-content .brand .title0{
+    width: 100%;
+}
+.mui-content .brand  ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mui-content .brand  ul li{
+    width: 25%;
+}
+.mui-content .brand  ul li a{
+    display: block;
+}
+.mui-content .brand  ul li a img{
+    width: 100%;
+}
+/* 运动生活专区 */
+.product{
+    padding: 0 10px;
+}
+.product .title0{
+    width: 100%;
+}
+.product ul{
+    display: flex;
+}
+.product ul li{
+    width: 50%;
+    padding: 5px;
+}
+.product ul li a{
+    display: block;
+    box-shadow: 0 0 5px #ccc;
+}
+.product ul li img{
+    width: 100%;
+}
+.product ul li .name{
+    display: block;
+    color: #8f8f94;
+    font-size: 14px;
+    text-align: left;
+    height: 38px;
+    line-height: 19px;
+}
+.product ul li p{
+    text-align: center;
+    padding-top: 6px;
+}
+.product ul li p span:first-child{
+    color: #f20;
+    margin-right: 4px;
+}
+.product ul li p span:last-child{
+    text-decoration: line-through;
+}
+.product ul li .buy-now{
+    display: block;
+    width: 82px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    margin: 0 auto 5px auto;
+    background-color: #006699;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+}

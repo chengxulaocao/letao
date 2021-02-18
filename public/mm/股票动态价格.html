@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>股票动态价格</title>
+    <script src="./js/jquery-1.11.3.js"></script>
+</head>
+<body>
+    <div id="show">
+        <table border="1"></table>
+    </div>
+
+    <script>
+
+        $(function(){
+            var jsonObj;
+            var index = 0;
+
+            $.get("http://127.0.0.1:8080/h717/allstk",function(data){
+                jsonObj = eval(`(${data})`)
+                console.log(jsonObj)
+            })
+        })
+    </script>
+</body>
+</html>
